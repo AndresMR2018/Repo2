@@ -7,16 +7,15 @@
 
 int main(){
 	system("color a");
+	
+	Dictado objD;
+	objD.ingresar();
+	objD.imprimir();
 	Contratado objC;
 	objC.ingresar();
 	objC.imprimir();
 	Titular objT;
 	objT.ingresar();
-	Dictado objD;
-	objD.ingresar();
-	objD.imprimir();
-	Materia objM;
-	objM.ingresar();
-	objM.imprimirt();
+	objT.imprimir();
 	return 0;
 }
