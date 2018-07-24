@@ -40,9 +40,9 @@ class Contratado:public Profesor{
 			cout << "\nFecha de ingreso : " << fecha_ingreso;
 			cout << "\nFecha de contrato : " << fecha_contratado;
 			
-			cout <<"\nCodigo : "<< this->setCodigo();
-			cout <<"\nNombre : "<< this->setNombre();
-			cout <<"\nApellido : "<< this->setApellido();
-			cout <<"\Direccion : "<< this->setDireccion();
+			cout <<"\nCodigo : "<< this->getCodigo();
+			cout <<"\nNombre : "<< this->getNombre();
+			cout <<"\nApellido : "<< this->getApellido();
+			cout <<"\Direccion : "<< this->getDireccion();
 		}
 };
