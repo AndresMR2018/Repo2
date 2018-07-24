@@ -41,11 +41,11 @@ void Dictado::imprimir(){
 	cout<<"\n**Datos Dictado**\n";
 	cout<<"Horario: "<<horario<<endl;
 	cout<<"\n**Datos del Profesor**\n";
-	cout<<"Codigo: "<<getProfesor().getCodigo()<<endl;
-	cout<<"Nombre: "<<getProfesor().getNombre()<<endl;
-	cout<<"Apellido: "<<getProfesor().getApellido()<<endl;
-	cout<<"Direccion: "<<getProfesor().getDireccion()<<endl;
+	cout<<"Codigo: "<<profesor.getCodigo()<<endl;
+	cout<<"Nombre: "<<profesor.getNombre()<<endl;
+	cout<<"Apellido: "<<profesor.getApellido()<<endl;
+	cout<<"Direccion: "<<profesor.getDireccion()<<endl;
 	cout<<"\n**Datos de la Materia**\n";
-	cout<<"Codigo: "<<getMateria().getCodigo()<<endl;
-	cout<<"Nombre: "<<getMateria().getNombre()<<endl;
+	cout<<"Codigo: "<<profesor.getCodigo()<<endl;
+	cout<<"Nombre: "<<profesor.getNombre()<<endl;
 }

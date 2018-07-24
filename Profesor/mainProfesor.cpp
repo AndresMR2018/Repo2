@@ -1,5 +1,5 @@
 #include <iostream>
-#include "Profesor2.h"
+#include "Profesor.h"
 #include "Contratado.h"
 #include "Titular.h"
 #include "Dictado.h"
