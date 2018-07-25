@@ -1,4 +1,3 @@
-
 using namespace std;
 
 class Titular:public Profesor{
@@ -10,7 +9,7 @@ class Titular:public Profesor{
 			this->anios_servicio=anios_servicio;
 		}
 		
-		string getAniosServicio(){return anios_servicio;}		
+		int getAniosServicio(){return anios_servicio;}		
 		void setAniosServicio(int anios_servicio){this->anios_servicio=anios_servicio;}
 		
 		void ingresar(){
@@ -20,7 +19,7 @@ class Titular:public Profesor{
 			cout <<"\nCodigo : "; cin>> codpro;
 			cout <<"\nNombres : "; cin >> nompro;
 			cout <<"\nApellidos : "; cin>> apepro;
-			cout << "\Direccion : "; cin >> dirpro;
+			cout << "\nDireccion : "; cin >> dirpro;
 			cout << "\nAnios de servicio : "; cin >> anios_servicio;
 			this->setCodigo(codpro);
 			this->setNombre(nompro);
@@ -33,7 +32,7 @@ class Titular:public Profesor{
 			cout <<"\nCodigo : "<< this->getCodigo();
 			cout <<"\nNombre : "<< this->getNombre();
 			cout <<"\nApellido : "<< this->getApellido();
-			cout <<"\Direccion : "<< this->getDireccion();
+			cout <<"\nDireccion : "<< this->getDireccion();
 			cout << "\nAnios de servicio : " << anios_servicio;
 		}
 };
